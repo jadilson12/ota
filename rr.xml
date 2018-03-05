@@ -11,6 +11,10 @@
 				id="changelog"
 				title="Changelog"
 				description="View Changelog">https://raw.githubusercontent.com/devx12/changelogs/master/MotoG5sPlus.xml</ChangelogUrl>
+			<OpenGappsUrl
+                id="open_gapps"
+                title="OpenGApps"
+                description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
 		</sanders>
 	</Stable>
 
