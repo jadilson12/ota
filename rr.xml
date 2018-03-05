@@ -2,7 +2,7 @@
 <ResurrectionOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 	<Stable>
 		<sanders>
-			<Filename>RR-O-v6.0.0-20180306-sanders-Unofficial.zip</Filename>
+			<Filename>RR-O-v6.0.0-20180305-sanders-Unofficial.zip</Filename>
 			<RomUrl
 				id="rom"
 				title="Rom"
