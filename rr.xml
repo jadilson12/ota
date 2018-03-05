@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResurrectionOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+       <sanders>
+            <Filename>RR-O-v6.0.0-20180306-sanders-Unofficial.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download Builds Recente">https://androidfilehost.com/?fid=890129502657588425</RomUrl>            
+             <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View Changelog">https://raw.githubusercontent.com/Redition/changelogs/master/MotoG4Plus.xml</ChangelogUrl>
+	</sanders>
+     </Stable>
+
+</ResurrectionOTA>
