@@ -1,0 +1,119 @@
+
+====================
+device/motorola/sanders
+====================
+
+
+a4ccb5be sanders: drop custom display flags
+347649ee rootdir: ueventd: Change permissions of USB role switch nodes
+16fc724e sanders: fix bluetooth header
+fee0458f sanders: update p2p and wpa overlay from stock
+4b73c467 sanders: Swap disk creation
+d8ced764 sanders: Adding the execute permission for /data/vendor/wifi
+e6f4738c sanders: Clang: use clang 8.0.7
+f4f23696 sanders: small changes
+1a0dbbdb sanders: Update extractors
+8558359d sanders: update WCNSS_qcom_cfg.ini from deen
+8890e713 sanders: update media codecs from LA.UM.7.6.r1-03700-89xx.0
+a78b2a99 sanders: rootdir: mmi: update from stock OPSS28.65-36-3
+f3b796f2 sanders: Remove fused location provider overlay
+3a35b5a7 sanders: rootdir: update iop dir path and permissions
+573bb59e sanders: update ACDB props and init.qcom.rc
+f22c0f0e sanders: update GPS configs from deen PPK29.68-16-8
+05cf18ff sanders: update eas configs
+61919267 sanders: overlay: Update power_profile to P
+ccec10bf sanders: overlay: enable config_enableManualSubProvisioning
+786483a2 sanders: drop specify Clang Path
+5709675f sanders: enable Verizon visual voicemail support
+3f4e133e sanders: build correct HALs
+cbc48fdd permissions: add necessary priv-app perms
+cdfd7c5e sanders: update WCNSS_qcom_cfg.ini for P
+45b6a8af sanders: remove cnss-daemon
+4c4dd4d3 sanders: Fix properties for Volte
+12cb4641 sanders: Add call recording Overlay
+d17aa49d sanders: Enable turbo power charger support
+4d163e3f Fix properties
+61ade740 sanders: Fix typo from CodeAurora in the QTI whitelist
+11309d6e RR Pie Bringup
+ef6fc9b5 sanders: Add more props to fix VoLTE
+
+====================
+kernel/motorola/msm8953
+====================
+
+5fc559c1b36d cpufreq: fallback to schedutil if governor is not found
+042e83072c19 cpu-boost: disable by default
+5d6198df28fc msm: mdss: reduce pm runtime autosuspend delay to 50 ms
+8b5abc4ea93c mm-camera2:isp2: Handle use after free buffer
+8078e59c5c33 arm/dt: msm8953: change reset seq of novatek panel
+482fe7119e8d msm: sps: Add support to enable NO_SUSPEND interrupt option
+08e5424252d5 Android: use clang r346389b
+f7657507579d Revert "scripts: setlocalversion: remove appended + from local version string"
+54017fad62dd sound/soc/codecs:  Enable Sound Control
+af417809de82 sanders: Enable DTV_FC8300
+85453a1f7bff Merge tag 'v3.18.133' into lineage-16.0
+2c10441c5874 Merge tag 'v3.18.132' into lineage-16.0
+d4744c678a41 sanders: update sanders_defconfig
+d0762fa89b2c Revert "sanders_defconfig: Enable MSM_PERFORMANCE and"
+4c35624dcb3b Linux 3.18.133
+aa2f510a0698 mm, proc: be more verbose about unstable VMA flags in /proc/<pid>/smaps
+fd1f97162fc5 ocfs2: fix panic due to unrecovered local alloc
+5f95437eca3a sysfs: Disable lockdep for driver bind/unbind files
+98b701339c76 ALSA: bebob: fix model-id of unit for Apogee Ensemble
+1d8db45d3178 dm snapshot: Fix excessive memory usage and workqueue stalls
+4982226e1d2d dm kcopyd: Fix bug causing workqueue stalls
+4f7d2b60ce73 perf parse-events: Fix unchecked usage of strncpy()
+7b20a6d4059a perf svghelper: Fix unchecked usage of strncpy()
+a8734066c0e0 mmc: atmel-mci: do not assume idle after atmci_request_end
+b0787de81787 kconfig: fix memory leak when EOF is encountered in quotation
+8cd9a9440366 clk: imx6q: reset exclusive gates on init
+2ace487a93fb scsi: target: use consistent left-aligned ASCII INQUIRY data
+5a571a9e9d11 net: call sk_dst_reset when set SO_DONTROUTE
+90463551f5c2 media: firewire: Fix app_info parameter type in avc_ca{,_app}_info
+15a6405ca56d powerpc/pseries/cpuidle: Fix preempt warning
+ec7f99261da9 pstore/ram: Do not treat empty buffers as valid
+fa1e3a488c3d jffs2: Fix use of uninitialized delayed_work, lockdep breakage
+84a9b63d087c MIPS: SiByte: Enable swiotlb for SWARM, LittleSur and BigSur
+f9eb72f770b8 r8169: Add support for new Realtek Ethernet
+e23a15823085 media: vb2: be sure to unlock mutex on errors
+661fda257248 drm/fb-helper: Ignore the value of fb_var_screeninfo.pixclock
+a17189a0e107 block/loop: Use global lock for ioctl() operation.
+ca554dae5b07 sctp: allocate sctp_sockaddr_entry with kzalloc
+f643372c915b selinux: fix GPF on invalid policy
+855486747309 sunrpc: handle ENOMEM in rpcb_getport_async
+babd8d8ca362 media: vb2: vb2_mmap: move lock up
+3c2350d7ef6b media: vivid: set min width/height to a value > 0
+16e187691b47 media: vivid: fix error handling of kthread_run
+c089cbb7c47f omap2fb: Fix stack memory disclosure
+1f884727597e Disable MSI also when pcie-octeon.pcie_disable on
+14e1fc9488db mfd: tps6586x: Handle interrupts on suspend
+6f5685a49afe scsi: sd: Fix cache_type_store()
+d90b262c51ce Yama: Check for pid death before checking ancestry
+ca225877ef6e btrfs: wait on ordered extents on abort cleanup
+98d2b2486aea crypto: authenc - fix parsing key with misaligned rta_len
+23009dc3d4ff net: bridge: fix a bug on using a neighbour cache entry without checking its state
+8c871bdbd02f packet: Do not leak dev refcounts on error exit
+4d97ac0053d1 ipv6: fix kernel-infoleak in ipv6_local_error()
+3ce837acc94f media: em28xx: Fix misplaced reset of dev->v4l::field_count
+4c3b21c842de can: gw: ensure DLC boundaries after CAN frame modification
+975156125866 tty/ldsem: Wake up readers after timed out down_write()
+b1c0a2b920e6 sunrpc: use-after-free in svc_process_common()
+ddcd89ca5313 crypto: cts - fix crash on short inputs
+96e2cd7a68cf i2c: dev: prevent adapter retries and timeout being set as minus value
+fe19dc973bbd ACPI: power: Skip duplicate power resource references in _PRx
+67dd0eda360a slab: alien caches must not be initialized if the allocation of the alien cache failed
+84fe5c6e95e6 USB: storage: add quirk for SMI SM3350
+5a2cac02dc5d USB: storage: don't insert sane sense for SPC3+ when bad sense specified
+93e95567e918 usb: cdc-acm: send ZLP for Telit 3G Intel based modems
+ac72ab69de66 cifs: Fix potential OOB access of lock element array
+de92e4baf2b8 CIFS: Do not hide EINTR after sending network packets
+0c9c58b95e9f sparc32: Fix inverted invalid_frame_pointer checks on sigreturns
+
+====================
+vendor/motorola/sander
+====================
+
+836e65b sanders: add blobs DTV
+0e6c9dc dont build telephony-common just copy it
+66f0374 sanders: update ims.apk which passes ims status for us
+c2ba87a Revert "sanders: qti-telephony-common: add TelephonyUtils class from moto's"
