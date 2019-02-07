@@ -1,119 +1,337 @@
 
+Resurrection Remix Pie Ver 7.0.0 Changelog
+
+
 ====================
-device/motorola/sanders
+     02-07-2019
+====================
+
+
+   * device/qcom/sepolicy-legacy/
+5ecd730 Merge remote-tracking branch 'LineageOS/lineage-16.0' into HEAD
+
+   * device/rr/sepolicy/
+1aa407b sepolicy: Add policy for edgegestureservice
+17457f9 Merge remote-tracking branch 'LineageOS/lineage-16.0' into HEAD
+
+   * frameworks/base/
+d535273f0cb SystemUI: layout: global_actions_wrapped: add missing FrameLayout
+4077deab476 Merge pull request #242 from aragon12/pie
+4e5d9796cca systemUI: HotspotcontrolImpl: remove mWifiStateReciever
+bcf5e2ffb8d Merge pull request #241 from aragon12/pie
+fae4dce93a4 systemUI: GlobalActions: import Ibinder class
+f9f09a4c702 systemUI: GlobalActions: import android ComponentName class
+0b047d139ae systemUI: remove duplicate CLOCK_SECONDS declaration
+85f26486fef Merge pull request #237 from hunfatal/rr-pie-qs-location-cycle
+eded049cb5b Merge pull request #240 from fgl27/pie_fix
+c8549a46685 Base: fix miss merge
+
+   * hardware/lineage/livedisplay/
+62d6ecd livedisplay: sdm: Fix restoring default mode
+36ab575 livedisplay: sdm: Fix isSupported() checks
+d4eb8a8 livedisplay: The module isn't proprietary
+0d26b6b livedisplay: Nuke color balance
+d421085 livedisplay: Minor code cleanup
+950336a livedisplay: Fix racy init
+
+   * lineage-sdk/
+440dcc4 Merge pull request #2 from fgl27/pie
+
+   * packages/apps/Settings/
+e03635496a Merge tag 'android-9.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+====================
+     02-06-2019
+====================
+
+   * android/
+d5b38c5 manifest: android-9.0.0_r30 -> android-9.0.0_r31
+78e30df manifest: Sync hardware/lineage/livedisplay
+0b04f71 Track recovery dependencies
+c1009bb Switch to our chromium-webview fork
+
+   * art/
+f443eb4537 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * bionic/
+2c489cfe6 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * bootable/recovery/
+e61adcc1 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * build/kati/
+e1ae0f6 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * build/make/
+0894115aa Merge branch 'lineage-16.0' of git://github.com/LineageOS/android_build into HEAD
+238f876ee Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * build/soong/
+3ad0f128 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_build_soong into HEAD
+
+   * dalvik/
+a879c37db Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * development/
+86865adca Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * external/f2fs-tools/
+f2dba35 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * external/skia/
+afc6528ade Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/av/
+4d5f385d9 Merge branch 'pie' of https://github.com/ResurrectionRemix/frameworks_av into pie
+7292c0f54 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_frameworks_av into pie
+feb51fdb5 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/base/
+c5e130752fa Merge tag 'android-9.0.0_r31' into HEAD
+c1dca606373 base: add Trust usb restrictor
+ea9a614f6f9 SystemUI: Add onStatusBarMotionEvent hook
+5e7355c6878 Visualizer: fix native crash when visualizer release
+3272184eb69 FWB: Power/reboot menu transparency (1/2)
+
+   * frameworks/native/
+4e76108cc Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/opt/net/wifi/
+9992063b7 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/opt/telephony/
+dc96f18d4 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/interfaces/
+aa0e2959 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/nxp/nfc/
+ec3b549 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/audio/default/
+805056830 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/bootctrl/
+a1d491d Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/gps/
+5dc7ab4 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/media/
+a316b4cb8 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/sdm845/gps/
+236e6c3 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/ril/
+8f3b236 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * lineage-sdk/
+0b992df Add emergency power menu constant
+d080679 LineageSettingsProvider: Fix migration of FORCE_SHOW_NAVBAR
+e7dc7fe sdk: add Trust usb restrictor
+26cfa49 PerformanceManager: Allow wait for MPCTL to start on boot
+f5ca9af LiveDisplayService: Catch NPE before LiveDisplayConfig is initialized
+03dd7c3 LineageAudioService: Make audio session broadcast explicit
+
+   * packages/apps/Bluetooth/
+b25a5859 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Camera2/
+13539317c Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/CarrierConfig/
+240fe89 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/CellBroadcastReceiver/
+e4439ca8 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/CertInstaller/
+f5f144b Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Contacts/
+513604926 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Email/
+e3e6551bd Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/EmergencyInfo/
+945e797 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/KeyChain/
+beb9b46 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/ManagedProvisioning/
+6328a999 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Nfc/
+9219cd79 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/PackageInstaller/
+b6f5c297 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/PhoneCommon/
+c815455 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Settings/
+91e64d1415 Settings: Power/reboot menu transparency (2/2)
+
+   * packages/apps/SmartNav/
+a4d66df Fix menu buttons
+
+   * packages/apps/Snap/
+c8c7085a9 Snap: make support for bokeh mode configurable per device
+
+   * packages/apps/Stk/
+42bdef6 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/StorageManager/
+41a18ac Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/TvSettings/
+eb9b2f34 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/UnifiedEmail/
+84b7ce039 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/inputmethods/LatinIME/
+5ffe02861 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/ContactsProvider/
+09c216f7 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/DownloadProvider/
+f443f249 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/MediaProvider/
+9072294 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/TelephonyProvider/
+8f71026 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/TvProvider/
+9989e28 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/screensavers/PhotoTable/
+6136119 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/services/BuiltInPrintService/
+a42c960 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/bt/
+202d95a52 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/core/
+80a9b9f76 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_system_core into HEAD
+e211c8812 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/extras/
+c541ffcf Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/netd/
+ccc0d8d Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/security/
+b952db0 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/sepolicy/
+986dbc7e Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_system_sepolicy into HEAD
+3ab36a06 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/update_engine/
+8d95962 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/vold/
+64a5178 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+====================
+     02-05-2019
 ====================
 
 
-a4ccb5be sanders: drop custom display flags
-347649ee rootdir: ueventd: Change permissions of USB role switch nodes
-16fc724e sanders: fix bluetooth header
-fee0458f sanders: update p2p and wpa overlay from stock
-4b73c467 sanders: Swap disk creation
-d8ced764 sanders: Adding the execute permission for /data/vendor/wifi
-e6f4738c sanders: Clang: use clang 8.0.7
-f4f23696 sanders: small changes
-1a0dbbdb sanders: Update extractors
-8558359d sanders: update WCNSS_qcom_cfg.ini from deen
-8890e713 sanders: update media codecs from LA.UM.7.6.r1-03700-89xx.0
-a78b2a99 sanders: rootdir: mmi: update from stock OPSS28.65-36-3
-f3b796f2 sanders: Remove fused location provider overlay
-3a35b5a7 sanders: rootdir: update iop dir path and permissions
-573bb59e sanders: update ACDB props and init.qcom.rc
-f22c0f0e sanders: update GPS configs from deen PPK29.68-16-8
-05cf18ff sanders: update eas configs
-61919267 sanders: overlay: Update power_profile to P
-ccec10bf sanders: overlay: enable config_enableManualSubProvisioning
-786483a2 sanders: drop specify Clang Path
-5709675f sanders: enable Verizon visual voicemail support
-3f4e133e sanders: build correct HALs
-cbc48fdd permissions: add necessary priv-app perms
-cdfd7c5e sanders: update WCNSS_qcom_cfg.ini for P
-45b6a8af sanders: remove cnss-daemon
-4c4dd4d3 sanders: Fix properties for Volte
-12cb4641 sanders: Add call recording Overlay
-d17aa49d sanders: Enable turbo power charger support
-4d163e3f Fix properties
-61ade740 sanders: Fix typo from CodeAurora in the QTI whitelist
-11309d6e RR Pie Bringup
-ef6fc9b5 sanders: Add more props to fix VoLTE
+   * frameworks/base/
+8bc791a0441 base: qs: Set panel transparency [1/2]
+8ab893aaaa2 Update statusbar logo
+
+   * packages/apps/Messaging/
+40c8755 Switch to JobIntentService
+7d378ea Messaging: improve notification channels
+
+   * packages/apps/Settings/
+e213a70548 Settings: Set panel transparency [2/2]
+
+   * packages/apps/SmartNav/
+ef62802 Update fling drawables
 
 ====================
-kernel/motorola/msm8953
+     02-04-2019
 ====================
 
-5fc559c1b36d cpufreq: fallback to schedutil if governor is not found
-042e83072c19 cpu-boost: disable by default
-5d6198df28fc msm: mdss: reduce pm runtime autosuspend delay to 50 ms
-8b5abc4ea93c mm-camera2:isp2: Handle use after free buffer
-8078e59c5c33 arm/dt: msm8953: change reset seq of novatek panel
-482fe7119e8d msm: sps: Add support to enable NO_SUSPEND interrupt option
-08e5424252d5 Android: use clang r346389b
-f7657507579d Revert "scripts: setlocalversion: remove appended + from local version string"
-54017fad62dd sound/soc/codecs:  Enable Sound Control
-af417809de82 sanders: Enable DTV_FC8300
-85453a1f7bff Merge tag 'v3.18.133' into lineage-16.0
-2c10441c5874 Merge tag 'v3.18.132' into lineage-16.0
-d4744c678a41 sanders: update sanders_defconfig
-d0762fa89b2c Revert "sanders_defconfig: Enable MSM_PERFORMANCE and"
-4c35624dcb3b Linux 3.18.133
-aa2f510a0698 mm, proc: be more verbose about unstable VMA flags in /proc/<pid>/smaps
-fd1f97162fc5 ocfs2: fix panic due to unrecovered local alloc
-5f95437eca3a sysfs: Disable lockdep for driver bind/unbind files
-98b701339c76 ALSA: bebob: fix model-id of unit for Apogee Ensemble
-1d8db45d3178 dm snapshot: Fix excessive memory usage and workqueue stalls
-4982226e1d2d dm kcopyd: Fix bug causing workqueue stalls
-4f7d2b60ce73 perf parse-events: Fix unchecked usage of strncpy()
-7b20a6d4059a perf svghelper: Fix unchecked usage of strncpy()
-a8734066c0e0 mmc: atmel-mci: do not assume idle after atmci_request_end
-b0787de81787 kconfig: fix memory leak when EOF is encountered in quotation
-8cd9a9440366 clk: imx6q: reset exclusive gates on init
-2ace487a93fb scsi: target: use consistent left-aligned ASCII INQUIRY data
-5a571a9e9d11 net: call sk_dst_reset when set SO_DONTROUTE
-90463551f5c2 media: firewire: Fix app_info parameter type in avc_ca{,_app}_info
-15a6405ca56d powerpc/pseries/cpuidle: Fix preempt warning
-ec7f99261da9 pstore/ram: Do not treat empty buffers as valid
-fa1e3a488c3d jffs2: Fix use of uninitialized delayed_work, lockdep breakage
-84a9b63d087c MIPS: SiByte: Enable swiotlb for SWARM, LittleSur and BigSur
-f9eb72f770b8 r8169: Add support for new Realtek Ethernet
-e23a15823085 media: vb2: be sure to unlock mutex on errors
-661fda257248 drm/fb-helper: Ignore the value of fb_var_screeninfo.pixclock
-a17189a0e107 block/loop: Use global lock for ioctl() operation.
-ca554dae5b07 sctp: allocate sctp_sockaddr_entry with kzalloc
-f643372c915b selinux: fix GPF on invalid policy
-855486747309 sunrpc: handle ENOMEM in rpcb_getport_async
-babd8d8ca362 media: vb2: vb2_mmap: move lock up
-3c2350d7ef6b media: vivid: set min width/height to a value > 0
-16e187691b47 media: vivid: fix error handling of kthread_run
-c089cbb7c47f omap2fb: Fix stack memory disclosure
-1f884727597e Disable MSI also when pcie-octeon.pcie_disable on
-14e1fc9488db mfd: tps6586x: Handle interrupts on suspend
-6f5685a49afe scsi: sd: Fix cache_type_store()
-d90b262c51ce Yama: Check for pid death before checking ancestry
-ca225877ef6e btrfs: wait on ordered extents on abort cleanup
-98d2b2486aea crypto: authenc - fix parsing key with misaligned rta_len
-23009dc3d4ff net: bridge: fix a bug on using a neighbour cache entry without checking its state
-8c871bdbd02f packet: Do not leak dev refcounts on error exit
-4d97ac0053d1 ipv6: fix kernel-infoleak in ipv6_local_error()
-3ce837acc94f media: em28xx: Fix misplaced reset of dev->v4l::field_count
-4c3b21c842de can: gw: ensure DLC boundaries after CAN frame modification
-975156125866 tty/ldsem: Wake up readers after timed out down_write()
-b1c0a2b920e6 sunrpc: use-after-free in svc_process_common()
-ddcd89ca5313 crypto: cts - fix crash on short inputs
-96e2cd7a68cf i2c: dev: prevent adapter retries and timeout being set as minus value
-fe19dc973bbd ACPI: power: Skip duplicate power resource references in _PRx
-67dd0eda360a slab: alien caches must not be initialized if the allocation of the alien cache failed
-84fe5c6e95e6 USB: storage: add quirk for SMI SM3350
-5a2cac02dc5d USB: storage: don't insert sane sense for SPC3+ when bad sense specified
-93e95567e918 usb: cdc-acm: send ZLP for Telit 3G Intel based modems
-ac72ab69de66 cifs: Fix potential OOB access of lock element array
-de92e4baf2b8 CIFS: Do not hide EINTR after sending network packets
-0c9c58b95e9f sparc32: Fix inverted invalid_frame_pointer checks on sigreturns
+
+   * build/soong/
+1c272bea Always link org.lineageos.platform-res for org.lineageos.platform.sdk
+
+   * device/rr/sepolicy/
+c8ceb6f sepolicies: add Trust hal
+701b30d common: Migrate to livedisplay 2.0
+1c44e50 common: Add vendor.lineage.touch rules
+c72a806 lineage: Rewrite Lineage Power HAL rules
+87d305d lineage: Properly write rules for Lineage LiveDisplay as a HAL
+
+   * hardware/lineage/interfaces/
+c6e0e42 trust: create service
+4b1c700 interfaces: Add trust 1.0 HAL
+73c5a16 interfaces: Add touch HIDL interface definitions
+47208dd interfaces: Add 2.0 livedisplay interfaces
+
+   * hardware/lineage/livedisplay/
+75ac2f2 livedisplay: Use 1 thread
+7a5da24 livedisplay: sdm: Wire it up
+2667bbd livedisplay: sdm: Remove unused HALs
+ce53d14 livedisplay: legacymm: Wire it up
+
+   * lineage-sdk/
+d5c0689 sdk: Add HIDL compat in LineageHardwareManager
+c0535a8 sdk: Deprecate some unused lineagehw features
+469d1b6 TelephonyExtUtils: Handle extphone binder death
+
+   * prebuilts/clang/host/linux-x86/
+806a8f8 Update prebuilt Clang to r349610.
+
+   * system/core/
+0124781e7 reboot: only run fsck when detecting filesystem inconsistency
+
+   * vendor/rr/
+b6e017c8 privapp-permissions: Remove org.lineageos.trebuchet permissions
+3a378761 privapp-permissions: Add new launcher3 permissions
 
 ====================
-vendor/motorola/sander
+     02-03-2019
 ====================
 
-836e65b sanders: add blobs DTV
-0e6c9dc dont build telephony-common just copy it
-66f0374 sanders: update ims.apk which passes ims status for us
-c2ba87a Revert "sanders: qti-telephony-common: add TelephonyUtils class from moto's"
+
+   * device/rr/sepolicy/
+e6c3ce0 sepolicy: Allow recovery update_engine to setexec backuptool
+0211a9c sepolicy: Allow Settings to read ro.vendor.build.security_patch
+
+   * frameworks/av/
+a2a547119 Merge pull request #8 from jhenrique09/pie
+7bbab0b45 av: camera: Allow disabling shutter sound for specific packages
+2cc3062a4 Visualizer: fix native crash when visualizer release
+
+   * hardware/lineage/livedisplay/
+c6e1c35 livedisplay: legacymm: Remove unused HALs
+d723625 livedisplay: Add clang-format from hardware/interfaces
+
+   * hardware/qcom/audio-caf/msm8996/
+d2dfc74a hal: spkr_protection: compilation error fixes with the vndk
+
+   * hardware/qcom/media-caf/msm8952/
+c108ce3f7 mm-video-v4l2: C++11 requires a space between literal and string macro
+b9af12c5d mm-video-v4l2: Compilation warning fixes
+44b85bb31 libstagefrighthw: Compilation warning fixes
+8d7910226 libc2dcolorconvert: Compilation warning fixes
+
+   * system/core/
+d2db1ae26 Merge pull request #1 from Jprimero15/pie
+
