@@ -1,13 +1,20 @@
 {
-    "response": [
-        {
-            "datetime": 1549753514,
-            "filename": "RR-P-v7.0.0-20190209-sanders-Unofficial.zip",
-            "id": "c3c9cf4c6464b547fed4af6ff5ecb6fb63b5ddffabfa41ee0e2715e1a7fce48f",
-            "romtype": "Unofficial",
-            "size": 616356000,
-            "url": "https://downloads.sourceforge.net/project/sanders/RR-Pie/RR-P-v7.0.0-20190209-sanders-Unofficial.zip",
-            "version": "7.0.0"
-        }
-    ]
-}
+    "website_url":"https://sourceforge.net/projects/havoc-os/",
+    "news_url":"https://t.me/Havoc_OS",
+    "addons": [
+    {
+       "title":"GApps",
+       "summary":"Official Open GApps",
+       "url":"http://opengapps.org"
+    }
+    ],
+    "developer":"@jadilson12",
+    "developer_url":"https://t.me//jadilson12",
+    "forum_url":"#",
+    "build_date":"20190303-0000",
+    "url":"https://downloads.sourceforge.net/project/sanders/HAVOC-Pie/Havoc-OS-v2.2-20190303-sanders-Unofficial.zip/download",
+    "file_name":"Havoc-OS-v2.2-20190303-sanders-Unofficial.zip",
+    "file_size":573320264,
+    "md5":"c0ae9899e048867b39ab018b72fc95bc"
+ }
+ 
